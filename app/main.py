@@ -9,7 +9,7 @@ app = FastAPI(title="Orders Review API")
 def health() -> dict[str, str]:
     return {"status": "ok"}
 
-
+#Check
 @app.get("/orders")
 def list_orders() -> list[dict[str, object]]:
     return [summarize_order(order) for order in load_orders()]
