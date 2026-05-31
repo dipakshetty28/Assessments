@@ -13,3 +13,4 @@ def health() -> dict[str, str]:
 @app.get("/orders")
 def list_orders() -> list[dict[str, object]]:
     return [summarize_order(order) for order in load_orders()]
+
