@@ -1,0 +1,19 @@
+[
+  {
+    "id": "ord_1001",
+    "customer": "Acme Manufacturing",
+    "status": "paid",
+    "items": [
+      {"sku": "seat-pro", "quantity": 3, "unit_price": 49.0},
+      {"sku": "onboarding", "quantity": 1, "unit_price": 199.0}
+    ]
+  },
+  {
+    "id": "ord_1002",
+    "customer": "Northwind Health",
+    "status": "pending",
+    "items": [
+      {"sku": "seat-team", "quantity": 2, "unit_price": 29.0}
+    ]
+  }
+]
